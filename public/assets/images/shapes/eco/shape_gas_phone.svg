@@ -1,0 +1,9 @@
+<svg width="100" height="130" viewBox="0 0 100 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shapePhoneGrad" x1="80" y1="120" x2="15" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M28 8C22.477 8 18 12.477 18 18V112C18 117.523 22.477 122 28 122H72C77.523 122 82 117.523 82 112V18C82 12.477 77.523 8 72 8H28ZM28 18H72V112H28V18ZM40 24H60V32H40V24ZM50 48C41.716 48 35 54.716 35 63C35 71.284 41.716 78 50 78C58.284 78 65 71.284 65 63C65 54.716 58.284 48 50 48ZM45 63C45 60.239 47.239 58 50 58C52.761 58 55 60.239 55 63C55 65.761 52.761 68 50 68C47.239 68 45 65.761 45 63ZM38 98H62V106H38V98Z" fill="url(#shapePhoneGrad)"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="140" height="100" viewBox="0 0 140 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shapeValveGrad" x1="120" y1="90" x2="10" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M8 45C8 39.477 12.477 35 18 35H32V30C32 24.477 36.477 20 42 20H58C63.523 20 68 24.477 68 30V35H82C87.523 35 92 39.477 92 45V55C92 60.523 87.523 65 82 65H68V70C68 75.523 63.523 80 58 80H42C36.477 80 32 75.523 32 70V65H18C12.477 65 8 60.523 8 55V45ZM18 45H32V55H18V45ZM42 30H58V70H42V30ZM68 45H82V55H68V45ZM98 30C98 24.477 102.477 20 108 20H122C127.523 20 132 24.477 132 30V70C132 75.523 127.523 80 122 80H108C102.477 80 98 75.523 98 70V30ZM108 30H122V70H108V30ZM50 8H70V18H50V8Z" fill="url(#shapeValveGrad)"/>
+</svg>

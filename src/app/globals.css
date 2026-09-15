@@ -1,0 +1,414 @@
+/* EcoEnergy overrides — brand + layout polish */
+
+:root {
+  --eco-green: #6bf585;
+  --eco-green-mid: #18f3a9;
+  --eco-hero: #001a14;
+  --eco-green-deep: #001a14;
+  --eco-green-deeper: #000f0c;
+}
+
+.financial_consulting {
+  --bs-dark: #001a14;
+  --bs-dark-rgb: 0, 26, 20;
+  --bs-primary: #6bf585;
+  --bs-primary-rgb: 107, 245, 133;
+  --bs-secondary: #0a1a15;
+  --bs-secondary-rgb: 10, 26, 21;
+}
+
+.financial_consulting .btn.bg-primary {
+  color: #020605;
+}
+
+.financial_consulting .btn.bg-primary svg path {
+  fill: #020605;
+}
+
+.financial_consulting .badge .text-primary,
+.financial_consulting .fa-circle.text-primary {
+  color: var(--eco-green) !important;
+}
+
+/* Logo size — slightly reduced from previous bump */
+.financial_consulting .header_layout_2 .site_logo,
+.financial_consulting .site_header .site_logo {
+  min-width: 220px !important;
+}
+
+.financial_consulting .header_layout_2 .header_top {
+  padding-top: 22px !important;
+  padding-bottom: 22px !important;
+}
+
+.financial_consulting .header_layout_2 .site_logo .site_link,
+.financial_consulting .site_header .site_logo .site_link {
+  min-width: 0 !important;
+  display: inline-flex !important;
+  align-items: center;
+}
+
+.financial_consulting .header_layout_2 .site_logo .site_link img,
+.financial_consulting .site_header .site_logo .site_link img,
+.financial_consulting .site_header .site_logo img {
+  height: 72px !important;
+  max-height: 72px !important;
+  width: auto !important;
+  max-width: none !important;
+  display: block !important;
+  object-fit: contain;
+}
+
+.financial_consulting .stricked-menu .site_logo .site_link img,
+.financial_consulting .stricked-menu .site_logo img {
+  height: 52px !important;
+  max-height: 52px !important;
+  width: auto !important;
+}
+
+@media (max-width: 991.98px) {
+  .financial_consulting .header_layout_2 .site_logo .site_link img,
+  .financial_consulting .site_header .site_logo img {
+    height: 60px !important;
+    max-height: 60px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .financial_consulting .header_layout_2 .site_logo .site_link img,
+  .financial_consulting .site_header .site_logo img {
+    height: 48px !important;
+    max-height: 48px !important;
+  }
+
+  .financial_consulting .header_layout_2 .site_logo {
+    min-width: 140px !important;
+  }
+}
+
+/* Center main nav */
+.header_layout_2 .header_bottom > .container-fluid.header_bottom_bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.header_layout_2 .header_bottom .main_menu {
+  grid-column: 2;
+  justify-self: center;
+}
+
+.header_layout_2 .header_bottom .btns_group {
+  grid-column: 3;
+  justify-self: end;
+  position: static;
+  transform: none;
+}
+
+@media (max-width: 991.98px) {
+  .header_layout_2 .header_bottom > .container-fluid.header_bottom_bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .header_layout_2 .header_bottom .main_menu,
+  .header_layout_2 .header_bottom .btns_group {
+    grid-column: auto;
+    justify-self: auto;
+  }
+}
+
+/* Hero: same 30px radius top + bottom (header must clear so top isn’t covered) */
+.financial_consulting .hero_radius_clip {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.financial_consulting .hero_radius_clip .hero_financial_consulting.bg-dark {
+  position: relative;
+  border-radius: 30px !important;
+  overflow: hidden !important;
+  background-color: #001a14 !important;
+  background-image: url("/assets/images/backgrounds/hero_bg_pattern_1.webp") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+  background-blend-mode: normal;
+  clip-path: inset(0 round 30px);
+}
+
+.financial_consulting .hero_financial_consulting .image_block {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.financial_consulting .hero_financial_consulting .hero_title mark {
+  color: #020605;
+  background-color: var(--eco-green);
+}
+
+/* Inner page headers */
+.financial_consulting .page_header {
+  background-color: #001a14;
+  background-image:
+    linear-gradient(145deg, rgba(0, 26, 20, 0.72) 0%, rgba(0, 26, 20, 0.55) 100%),
+    url("/assets/images/backgrounds/hero_bg_pattern_white.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.financial_consulting .page_header .page_title {
+  color: #fff;
+}
+
+.financial_consulting .page_header .breadcrumb_nav > li > a {
+  color: rgba(220, 233, 229, 0.75);
+}
+
+.financial_consulting .page_header .breadcrumb_nav > li.active > a {
+  color: var(--eco-green);
+}
+
+.financial_consulting .page_header .shape_coin {
+  top: 120px;
+  left: 80px;
+  max-width: 70px;
+  opacity: 0.55;
+}
+
+.financial_consulting .page_header .shape_note_1 {
+  top: 140px;
+  right: 120px;
+  max-width: 110px;
+  opacity: 0.45;
+}
+
+.financial_consulting .page_header .shape_note_2 {
+  left: 220px;
+  bottom: 40px;
+  max-width: 90px;
+  opacity: 0.4;
+}
+
+.financial_consulting .page_header .shape_percent {
+  right: 280px;
+  bottom: 36px;
+  max-width: 48px;
+  opacity: 0.5;
+}
+
+.financial_consulting .page_header .shape_nate_flow_1 {
+  top: 50%;
+  left: 0;
+  width: 42%;
+  opacity: 0.35;
+  transform: translateY(-50%);
+}
+
+.financial_consulting .page_header .shape_nate_flow_2 {
+  top: 50%;
+  right: 0;
+  width: 42%;
+  opacity: 0.35;
+  transform: translateY(-50%);
+}
+
+.financial_consulting .shape_coin img,
+.financial_consulting .shape_coin_2 img,
+.financial_consulting .shape_note_1 img,
+.financial_consulting .shape_note_2 img,
+.financial_consulting .shape_note_3 img,
+.financial_consulting .shape_percent img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.85;
+}
+
+.financial_consulting .features_block:before,
+.financial_consulting .blog_post_block .post_image:before,
+.financial_consulting .social_icons_block a:hover {
+  background: linear-gradient(0deg, var(--eco-green), #001a14) !important;
+}
+
+.financial_consulting .service_block.style_2 .service_icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.financial_consulting .service_block.style_2 .service_icon {
+  background-image: linear-gradient(-20deg, transparent, rgba(107, 245, 133, 0.28));
+}
+
+.financial_consulting .service_block.style_2 .service_icon:before {
+  background-image: linear-gradient(-20deg, transparent, rgba(107, 245, 133, 0.22));
+}
+
+/* Clear the taller logo header so top hero radius isn't covered by white header bg */
+.financial_consulting .header_layout_2 + main,
+.header_layout_2 + main,
+.financial_consulting main.page_content {
+  padding-top: 210px !important;
+}
+
+@media (max-width: 991.98px) {
+  .financial_consulting .header_layout_2 + main,
+  .header_layout_2 + main,
+  .financial_consulting main.page_content {
+    padding-top: 180px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .financial_consulting .header_layout_2 + main,
+  .header_layout_2 + main,
+  .financial_consulting main.page_content {
+    padding-top: 175px !important;
+  }
+}
+
+/* About funfact marquee — CSS scroll (template ticker.js misses Next load timing) */
+.financial_consulting .financial_analyst_funfact .eco-ticker {
+  margin-top: 40px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.financial_consulting .eco-ticker__track {
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  animation: eco-ticker-scroll 18s linear infinite;
+}
+
+.financial_consulting .eco-ticker__item {
+  flex: 0 0 auto;
+  padding: 10px 30px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--bs-dark);
+  font-family: var(--bs-font-heading-family), sans-serif;
+}
+
+.financial_consulting .eco-ticker__item::after {
+  content: "#";
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+@keyframes eco-ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .financial_consulting .eco-ticker__track {
+    animation: none;
+  }
+}
+
+/* App showcase — full phone frame on landing */
+.financial_consulting .app_showcase_section {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(107, 245, 133, 0.08), transparent 60%),
+    #f7faf8;
+}
+
+.financial_consulting .app_showcase_frame {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.financial_consulting .app_phone_shell {
+  width: min(100%, 920px);
+  padding: 18px;
+  border-radius: 36px;
+  background: linear-gradient(160deg, #001a14 0%, #0a3d32 100%);
+  box-shadow:
+    0 30px 80px rgba(0, 26, 20, 0.28),
+    0 8px 24px rgba(0, 26, 20, 0.12);
+}
+
+.financial_consulting .app_phone_shell img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  background: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .financial_consulting .app_phone_shell {
+    padding: 12px;
+    border-radius: 24px;
+  }
+
+  .financial_consulting .app_phone_shell img {
+    border-radius: 16px;
+  }
+}
+
+/* Live Sites — caption visible before hover */
+.financial_consulting .live_site_card .image_wrap:before {
+  opacity: 0.45;
+}
+
+.financial_consulting .live_site_card .item_title,
+.financial_consulting .live_site_card .item_tag,
+.financial_consulting .live_site_card .item_caption {
+  top: 0;
+  opacity: 1;
+  transform: none;
+}
+
+.financial_consulting .live_site_card .item_caption {
+  display: block;
+  max-width: 420px;
+  margin-top: 4px;
+  padding: 12px 18px;
+  font-size: 15px;
+  line-height: 1.45;
+  font-weight: 500;
+  color: var(--bs-heading-color);
+  background-color: var(--bs-white);
+  border-radius: var(--bs-border-radius);
+}
+
+.financial_consulting .live_site_card:hover .image_wrap:before {
+  opacity: 0.55;
+}
+
+.financial_consulting .live_site_card:hover .item_title,
+.financial_consulting .live_site_card:hover .item_tag,
+.financial_consulting .live_site_card:hover .item_caption {
+  top: 0;
+  opacity: 1;
+  transform: none;
+}
+
+/* Dark section wraps — keep black (not hero green) */
+.financial_consulting .fc_decoration_wrap.bg-dark {
+  background-color: #000000 !important;
+}
+
+.financial_consulting .cta_section.bg-dark,
+.financial_consulting .footer_bottom.bg-dark,
+.financial_consulting .newslatter_wrapper.bg-dark {
+  background-color: #001a14 !important;
+}

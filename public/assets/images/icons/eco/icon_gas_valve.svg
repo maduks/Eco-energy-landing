@@ -1,0 +1,15 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ecoValve" x1="8" y1="10" x2="56" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <path d="M10 32H22" stroke="url(#ecoValve)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M42 32H54" stroke="url(#ecoValve)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="10" stroke="url(#ecoValve)" stroke-width="3"/>
+  <path d="M32 22V14" stroke="url(#ecoValve)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 14H40" stroke="url(#ecoValve)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 14V10H36V14" stroke="url(#ecoValve)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 32H37" stroke="#FF6100" stroke-width="3" stroke-linecap="round"/>
+</svg>

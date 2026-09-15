@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ecoMeter" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="10" width="40" height="44" rx="8" stroke="url(#ecoMeter)" stroke-width="3"/>
+  <circle cx="32" cy="30" r="12" stroke="url(#ecoMeter)" stroke-width="3"/>
+  <path d="M32 30L40 22" stroke="#FF6100" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="30" r="2.5" fill="#020202"/>
+  <path d="M22 48H42" stroke="url(#ecoMeter)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M26 54H38" stroke="url(#ecoMeter)" stroke-width="3" stroke-linecap="round"/>
+</svg>

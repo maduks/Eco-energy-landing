@@ -1,0 +1,9 @@
+<svg width="130" height="140" viewBox="0 0 130 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shapeMeterGrad" x1="100" y1="130" x2="20" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M30 16C24.477 16 20 20.477 20 26V114C20 119.523 24.477 124 30 124H100C105.523 124 110 119.523 110 114V26C110 20.477 105.523 16 100 16H30ZM30 26H100V114H30V26ZM65 42C53.954 42 45 50.954 45 62C45 73.046 53.954 82 65 82C76.046 82 85 73.046 85 62C85 50.954 76.046 42 65 42ZM55 62C55 56.477 59.477 52 65 52C70.523 52 75 56.477 75 62C75 67.523 70.523 72 65 72C59.477 72 55 67.523 55 62ZM65 62L78 49L71.929 55.071C69.929 53.786 67.571 53 65 53C60.029 53 56 57.029 56 62H65ZM45 98H85V108H45V98Z" fill="url(#shapeMeterGrad)"/>
+</svg>

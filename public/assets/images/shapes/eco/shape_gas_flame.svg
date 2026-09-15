@@ -1,0 +1,9 @@
+<svg width="90" height="120" viewBox="0 0 90 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shapeFlameGrad" x1="70" y1="110" x2="15" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M45 6C45 6 12 38 12 68C12 86.778 27.222 102 46 102C64.778 102 80 86.778 80 68C80 38 45 6 45 6ZM46 92C32.745 92 22 81.255 22 68C22 52 38 32 45 24C52 32 68 52 68 68C68 81.255 57.255 92 44 92H46ZM45 48C45 48 32 60 32 70C32 77.18 37.82 83 45 83C52.18 83 58 77.18 58 70C58 60 45 48 45 48Z" fill="url(#shapeFlameGrad)"/>
+</svg>

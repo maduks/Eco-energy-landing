@@ -1,0 +1,9 @@
+<svg width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shapeTankGrad" x1="90" y1="150" x2="20" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M42 18C42 12.477 46.477 8 52 8H68C73.523 8 78 12.477 78 18V26H84C90.627 26 96 31.373 96 38V132C96 138.627 90.627 144 84 144H36C29.373 144 24 138.627 24 132V38C24 31.373 29.373 26 36 26H42V18ZM50 26H70V20C70 18.895 69.105 18 68 18H52C50.895 18 50 18.895 50 20V26ZM36 36C34.895 36 34 36.895 34 38V132C34 133.105 34.895 134 36 134H84C85.105 134 86 133.105 86 132V38C86 36.895 85.105 36 84 36H36ZM44 56H76V66H44V56ZM44 76H76V86H44V76ZM44 96H64V106H44V96Z" fill="url(#shapeTankGrad)"/>
+</svg>

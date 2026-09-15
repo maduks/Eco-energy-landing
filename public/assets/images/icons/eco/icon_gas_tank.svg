@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ecoTank" x1="12" y1="8" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="14" width="28" height="42" rx="6" stroke="url(#ecoTank)" stroke-width="3"/>
+  <path d="M26 14V10C26 8.9 26.9 8 28 8H36C37.1 8 38 8.9 38 10V14" stroke="url(#ecoTank)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 28H40" stroke="url(#ecoTank)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 38H40" stroke="url(#ecoTank)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 48H34" stroke="url(#ecoTank)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="42" cy="20" r="3" fill="#FF6100"/>
+</svg>

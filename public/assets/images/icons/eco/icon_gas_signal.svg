@@ -1,0 +1,11 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ecoSignal" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020202"/>
+      <stop offset="1" stop-color="#FF6100"/>
+    </linearGradient>
+  </defs>
+  <path d="M12 40C18 28 28 22 32 22C36 22 46 28 52 40" stroke="url(#ecoSignal)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M20 44C24 36 29 32 32 32C35 32 40 36 44 44" stroke="url(#ecoSignal)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="48" r="4" fill="#FF6100"/>
+</svg>
