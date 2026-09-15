@@ -322,6 +322,45 @@
   }
 }
 
+/* Home FAQ */
+.financial_consulting .faq_section {
+  background-color: #fff;
+}
+
+.financial_consulting .home_faq_accordion .accordion-item {
+  margin-bottom: 12px;
+  border: 1px solid rgba(0, 26, 20, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #f7faf8;
+}
+
+.financial_consulting .home_faq_accordion .accordion-button {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--bs-heading-color);
+  background: transparent;
+  box-shadow: none;
+  padding: 22px 28px;
+}
+
+.financial_consulting .home_faq_accordion .accordion-button:not(.collapsed) {
+  color: var(--bs-heading-color);
+  background: transparent;
+  box-shadow: none;
+}
+
+.financial_consulting .home_faq_accordion .accordion-button::after {
+  filter: none;
+}
+
+.financial_consulting .home_faq_accordion .accordion-body {
+  padding: 0 28px 24px;
+  color: var(--bs-body-color);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
 /* App showcase — full phone frame on landing */
 .financial_consulting .app_showcase_section {
   background:

@@ -88,6 +88,33 @@ export const projects = [
   },
 ] as const;
 
+export const faqs = [
+  {
+    id: "home_faq_one",
+    question: "What comes with Econergy for a new estate?",
+    answer:
+      "Meters, motorised valves, bulk tank telemetry, the resident app, the ops console and automated revenue splits. One multi-tenant stack, not a pile of separate tools.",
+  },
+  {
+    id: "home_faq_two",
+    question: "How do residents add gas credit?",
+    answer:
+      "In the Econergy app with debit card, bank transfer or USSD. Credit goes to the meter after payment clears. No paper vouchers and no queue at the facility office.",
+  },
+  {
+    id: "home_faq_three",
+    question: "What happens at zero balance?",
+    answer:
+      "The motorised valve closes on its own. The app shows that status. Supply returns after a successful top-up.",
+  },
+  {
+    id: "home_faq_four",
+    question: "Can estate managers override a valve?",
+    answer:
+      "Yes. Authorised operators can force-open or force-close for maintenance or a verified emergency. Overrides are logged for audit.",
+  },
+] as const;
+
 export const blogs = [
   {
     image: "blog_image_16.webp",

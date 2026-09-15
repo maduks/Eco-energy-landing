@@ -74,7 +74,7 @@ export default function PartnershipPage() {
             <div className="col-lg-7">
               <div className="heading_block text-center text-white">
                 <h2 className="heading_text">Who we work with</h2>
-                <p className="heading_description mb-0 text-muted">
+                <p className="heading_description mb-0 text-white-50">
                   Developers, EMAs, distributors and operators share one pipeline. Tank to ledger.
                   Same numbers.
                 </p>
@@ -84,8 +84,11 @@ export default function PartnershipPage() {
           <div className="service_blocks_group row">
             {partners.map((partner) => (
               <div className="col-lg-4 col-md-6 col-sm-6" key={partner.title}>
-                <div className="service_block style_2">
-                  <div className="service_icon">
+                <div className="service_block bg-dark">
+                  <div
+                    className="service_icon"
+                    style={{ backgroundImage: "url('/assets/images/icons/icon_rectangle.svg')" }}
+                  >
                     <img src={partner.icon} alt={partner.title} />
                   </div>
                   <div className="service_content">
@@ -135,7 +138,7 @@ export default function PartnershipPage() {
             <div className="col-lg-6">
               <div className="image_block rounded">
                 <img
-                  src="/assets/images/about/about_image_5.webp"
+                  src="/assets/images/about/talk_to_us.png"
                   alt="Join Econergy deployment partners"
                 />
               </div>

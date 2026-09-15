@@ -99,7 +99,7 @@ export default function HowItWorksPage() {
             <div className="col-lg-6">
               <div className="image_block rounded">
                 <img
-                  src="/assets/images/about/about_image_4.webp"
+                  src="/assets/images/about/how_it_Work.png"
                   alt="Econergy instrument flow"
                 />
               </div>
@@ -148,7 +148,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      <section className="about_section section_space bg-secondary section_decoration overflow-hidden">
+      {/* <section className="about_section section_space bg-secondary section_decoration overflow-hidden">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-last">
@@ -195,7 +195,7 @@ export default function HowItWorksPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

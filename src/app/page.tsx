@@ -3,6 +3,7 @@ import {
   AboutSection,
   AppShowcaseSection,
   ClientsLogoSection,
+  FaqSection,
   HeroSection,
   ServicesSection,
   StakeholdersSection,
@@ -23,6 +24,7 @@ export default function HomePage() {
       <StakeholdersSection />
       <ServicesSection />
       <AppShowcaseSection />
+      <FaqSection />
     </>
   );
 }
