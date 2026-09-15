@@ -23,7 +23,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: siteConfig.company }],
   icons: {
-    icon: "/assets/images/site_logo/favourite_icon_2.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48.png", sizes: "48x48", type: "image/png" },
+      {
+        url: "/assets/images/site_logo/eco_droplet_mark.png",
+        type: "image/png",
+      },
+    ],
+    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon.ico",
   },
 };
 
