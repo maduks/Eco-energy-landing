@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.git/
+_legacy/
+public/assets/scss/
+*.tsbuildinfo
+.DS_Store
+npm-debug.log*
+.env*

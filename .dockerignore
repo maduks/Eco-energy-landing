@@ -1,0 +1,14 @@
+node_modules
+.next
+.git
+.gitignore
+_legacy
+public/assets/scss
+README.md
+Dockerfile
+.dockerignore
+.gcloudignore
+*.tsbuildinfo
+.DS_Store
+npm-debug.log*
+.env*
